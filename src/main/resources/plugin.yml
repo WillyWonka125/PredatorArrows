@@ -1,0 +1,4 @@
+name: PredatorArrows
+version: '${project.version}'
+main: io.github.zaddyshack.predatorarrows.PredatorArrows
+api-version: 1.19
