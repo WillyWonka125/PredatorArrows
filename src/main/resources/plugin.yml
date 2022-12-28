@@ -2,3 +2,17 @@ name: PredatorArrows
 version: '${project.version}'
 main: io.github.zaddyshack.predatorarrows.PredatorArrows
 api-version: 1.19
+commands:
+  dick:
+    description: "Draws a dick where you're looking."
+    usage: "/dick [length]"
+    permission: pa.dick
+
+permissions:
+  pa.*:
+    description: Gives access to all commands
+    children:
+      pa.dick: true
+  pa.dick:
+    description: Access to /dick
+    default: true
